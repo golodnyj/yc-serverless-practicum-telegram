@@ -1,0 +1,15 @@
+# Создадим бота с помощью BotFather
+В телеграме найдите BotFather, вызовите команду `/newbot`, задайте имя новому боту.
+Имя бота должно быть уникальным, используйте для этого номер своего аккаунта. 
+Например, включайте `sls350` в название. 
+
+В моем случае это — `Serverless Quote Telegram Bot`, 
+также задайте username — `ServerlessQuoteTelegramBot`. 
+В результате вы получите `token`, сохраним его, он потребуется на следующих этапах.
+
+    echo "export TELEGRAM_BOT_TOKEN=<YOUR_TELEGRAM_BOT_TOKEN>" >> ~/.bashrc && . ~/.bashrc
+    echo $TELEGRAM_BOT_TOKEN
+
+С помощью команды `/setuserpic` установите иконку для вашего бота `sayhello.png`
+
+# [cледующий этап >>>](../02-create-service-account/README.md)
