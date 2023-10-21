@@ -80,4 +80,4 @@
 
 Введите значение параметра `http_invoke_url` в браузере и проверьте что стало с бакетом.
 
-# [Следующий этап >>>](../10-update-function/README.md)
+# [Следующий этап >>>](../10-update-first-bot-function/README.md)
