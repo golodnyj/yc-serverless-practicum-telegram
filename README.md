@@ -12,7 +12,8 @@ Yandex Managed Service for YDB и другие облачные сервисы.
 * Yandex API Gateway;
 * Yandex Managed Service for YDB;
 * Yandex Cloud Functions;
-*  Yandex Object Storage;
+* Yandex Object Storage;
+* Yandex Lockbox;
 * Yandex Cloud Logging.
 
 Работать будем в терминале, консоли и среде разработки. 
