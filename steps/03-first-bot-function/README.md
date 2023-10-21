@@ -85,13 +85,14 @@
 внести ваши значения.
 
 Находясь в директории со скриптом `webhook-utils.py`, вызовите его. 
-Возможно перед запуском скрипта вам потребуется установить библиотеку `requests`:
-
-    pip install requests
+Возможно перед запуском скрипта вам потребуется установить библиотеку `requests` 
+и возможно, перед этим потребуется вызвать команду `sudo apt update`:
+ 
+    pip install requests 
     python3 webhook-utils.py
 
 Если все удачно прошло, то вы получите ответ от API Telegram:
 
     {'ok': True, 'result': True, 'description': 'Webhook was set'}
 
-# [cледующий этап >>>](../04-create-database/README.md)
+# [Следующий этап >>>](../04-create-database/README.md)
