@@ -12,4 +12,4 @@
 
 С помощью команды `/setuserpic` установите иконку для вашего бота `sayhello.png`
 
-# [cледующий этап >>>](../02-create-service-account/README.md)
+# [Следующий этап >>>](../02-create-service-account/README.md)

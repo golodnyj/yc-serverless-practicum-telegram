@@ -52,4 +52,4 @@
     aws configure
     aws configure list
 
-# [cледующий этап >>>](../08-create-object-storage/README.md)
+# [Следующий этап >>>](../08-create-object-storage/README.md)

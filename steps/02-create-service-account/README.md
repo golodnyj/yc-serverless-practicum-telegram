@@ -71,4 +71,4 @@
     --subject serviceAccount:$SERVICE_ACCOUNT_DEPLOY_ID \
      --role editor  
 
-# [cледующий этап >>>](../03-first-bot-function/README.md)
+# [Следующий этап >>>](../03-first-bot-function/README.md)
