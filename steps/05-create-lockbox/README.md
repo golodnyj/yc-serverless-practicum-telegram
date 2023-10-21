@@ -21,7 +21,8 @@
 
     echo $LOCKBOX_SECRET_ID
 
-Токен нашего бота тоже лучше положить в секрет, чтобы можно было из функции к нему обращаться:
+Токен нашего бота тоже лучше положить в секрет, чтобы можно было из функции к нему обращаться.
+Подставьте значение своего токена и выполните:
 
     echo "export TELEGRAM_BOT_TOKEN=<TELEGRAM_BOT_TOKEN>" >> ~/.bashrc && . ~/.bashrc
     echo $TELEGRAM_BOT_TOKEN
@@ -29,4 +30,4 @@
     yc lockbox secret add-version --id $LOCKBOX_SECRET_ID \
     --payload "[{'key': 'TELEGRAM_BOT_TOKEN', 'text_value': '$TELEGRAM_BOT_TOKEN'}]"
 
-# [cледующий этап >>>](../06-update-function/README.md)
+# [Следующий этап >>>](../06-update-function/README.md)
