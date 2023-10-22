@@ -69,6 +69,10 @@
 
     yc resource-manager folder add-access-binding $YC_FOLDER_ID \
     --subject serviceAccount:$SERVICE_ACCOUNT_DEPLOY_ID \
-     --role editor  
+     --role editor
+
+## Видео
+
+https://youtu.be/RaKiA82mVRc
 
 # [Следующий этап >>>](../03-first-bot-function/README.md)

@@ -7,7 +7,7 @@ import json
 token = os.getenv('TELEGRAM_BOT_TOKEN')
 
 
-#send message function
+# send message function
 def send_message(chat_id, text):
     #url = 'https://api.telegram.org/bot' + token + '/' + 'sendMessage'
     url = "https://api.telegram.org/bot%s/sendMessage" % (token)

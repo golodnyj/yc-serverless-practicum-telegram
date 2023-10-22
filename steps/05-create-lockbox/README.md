@@ -29,4 +29,8 @@
     yc lockbox secret add-version --id $LOCKBOX_SECRET_ID \
     --payload "[{'key': 'TELEGRAM_BOT_TOKEN', 'text_value': '$TELEGRAM_BOT_TOKEN'}]"
 
+## Видео
+
+https://youtu.be/xHWkHiDaY6g
+
 # [Следующий этап >>>](../06-update-function/README.md)

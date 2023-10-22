@@ -69,4 +69,8 @@
     yc lockbox secret add-version --id $LOCKBOX_SECRET_ID \
     --payload "[{'key': 'BUCKET_NAME', 'text_value': '$BUCKET_NAME'}]"
 
+## Видео
+
+https://youtu.be/VPEs_pbLqg8
+
 # [Следующий этап >>>](../09-function-for-bucket/README.md)

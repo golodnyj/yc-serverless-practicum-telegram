@@ -12,4 +12,8 @@
 
 С помощью команды `/setuserpic` установите иконку для вашего бота `sayhello.png`
 
+## Видео
+
+https://youtu.be/ctgm7w1siYY
+
 # [Следующий этап >>>](../02-create-service-account/README.md)

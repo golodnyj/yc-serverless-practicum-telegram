@@ -52,4 +52,8 @@
     aws configure
     aws configure list
 
+## Видео
+
+https://youtu.be/MsraVY_BQDc
+
 # [Следующий этап >>>](../08-create-object-storage/README.md)

@@ -96,4 +96,8 @@
 
     {'ok': True, 'result': True, 'description': 'Webhook was set'}
 
+## Видео
+
+https://youtu.be/A5DGogHIUuc и финал https://youtu.be/MEpYJs2TXVI
+
 # [Следующий этап >>>](../04-create-database/README.md)

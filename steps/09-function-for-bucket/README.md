@@ -81,4 +81,8 @@
 
 Введите значение параметра `http_invoke_url` в браузере и проверьте что стало с бакетом.
 
+## Видео
+
+https://youtu.be/P2aGe7r0BVo
+
 # [Следующий этап >>>](../10-update-first-bot-function/README.md)

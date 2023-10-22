@@ -92,4 +92,8 @@
     --sa-key-file $SA_KEY_FILE \
     scheme describe Quotes
 
+## Видео
+
+https://youtu.be/snIgoc7xbqQ
+
 # [Следующий этап >>>](../05-create-lockbox/README.md)
