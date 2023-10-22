@@ -35,12 +35,21 @@
 В файл `main.tf` внесем все собранные переменные. 
 Важно `BUCKET-ID` указывает на создаваемый bucket в Object Storage куда будем загружать файлы, 
 допустим переменная будет равна `bucket-for-bot-sls350`. 
-Сохраним все значения.
+Сохраним все значения. Чтобы переменные были перед глазами:
+
+    echo $YC_IAM_TOKEN
+    echo $YC_FOLDER_ID
+    echo $YC_CLOUD_ID
+    echo $AWS_ACCESS_KEY_ID
+    echo $AWS_SECRET_ACCESS_KEY
 
 ## Применение Terraform
 
 После внесения правок, находясь в каталоге с файлом  `main.tf` 
 последовательно выполните следующие команды:
+
+    cd ..
+    cd 08-create-object-storage/
 
     terraform init
     terraform plan

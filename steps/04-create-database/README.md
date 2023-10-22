@@ -3,6 +3,8 @@
 
 Создадим базу данных YDB с именем `bot-data` и типом serverless используя для этого флаг `--serverless`:
 
+    cd ..
+    cd 04-create-database/
     yc ydb database create bot-data --serverless --folder-id $YC_FOLDER_ID
     yc ydb database list
 

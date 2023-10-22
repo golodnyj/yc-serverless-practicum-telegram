@@ -3,6 +3,7 @@
 
 Создайте свою первую функцию с именем `first-bot-function`:
 
+    cd steps/03-first-bot-function/
     yc serverless function create --name first-bot-function
 
 При создании функции вы получите URL по которому можно будет сделать вызов функции `http_invoke_url`. По умолчанию функция будет не публичной.

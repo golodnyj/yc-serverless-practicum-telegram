@@ -3,8 +3,8 @@
 Имя бота должно быть уникальным, используйте для этого номер своего аккаунта. 
 Например, включайте `sls350` в название. 
 
-В моем случае это — `Serverless Quote Telegram Bot`, 
-также задайте username — `ServerlessQuoteTelegramBot`. 
+В моем случае это — `ServerlessQuoteTelegram_bot`, 
+также задайте username — `ServerlessQuoteTelegram_bot`. 
 В результате вы получите `token`, сохраним его, он потребуется на следующих этапах.
 
     echo "export TELEGRAM_BOT_TOKEN=<YOUR_TELEGRAM_BOT_TOKEN>" >> ~/.bashrc && . ~/.bashrc
